@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+}
+
+main {
+    padding: 36px;
+}
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: #82EDE9;
+    background: linear-gradient(135deg, #82EDE9, #9E9BF7);
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.header--logo {
+    height: 26px;
+    width: 31px;
+    margin-right: 7px;
+}
+
+.header--title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    margin-right: auto;
+}
+
+.header--subtitle {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 15px 17px;
+}
+
+.form--button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-column: 1 / -1;
+    background: #82EDE9;
+    background: linear-gradient(135deg, #82EDE9, #9E9BF7);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form--input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.meme--img {
+    max-width: 100%;
+    padding: 36px;
+    border-radius: 2px;
+}
+
+.meme {
+    position: relative;
+    color: white;
+}
+
+.meme--text--top {
+    position: absolute;
+    top: 17px;
+    left: 200px;
+}
+
+.meme--text--bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+}
