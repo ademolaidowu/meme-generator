@@ -20,7 +20,7 @@
 
 
 ## ➡️ Description
-This is an app for genenrating memes built in react<br>
+This is an app for generating memes built in react<br>
 Built this app while learning react for web development<br>
 
 The app is able to generate memes with text distributed at the top and bottom
